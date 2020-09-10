@@ -14,4 +14,4 @@ print("Origin: Andromeda Galaxy")
 print("Strenght: 30")
 print("Experience: 4593")
 
-xe = input()
+dontclose = input()
