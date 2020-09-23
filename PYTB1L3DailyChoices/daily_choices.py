@@ -2,6 +2,7 @@ import os
 import sys
 
 
+
 def q1():
     print("Het is half 7 in de avond, je hebt honger. Wat ga je doen?")
     print("")
