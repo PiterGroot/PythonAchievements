@@ -10,7 +10,8 @@ for value in people:
 
 index = people.index(nametofind)
 print("")
-print("<-------------------------------------------------------->")
-print('The index of', nametofind, 'in the list is:', index)
+print("Anwser below:")
+print("")
+print('The index van', nametofind, 'in de lijst is:', index)
 
 dontclose = input()

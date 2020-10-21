@@ -1,8 +1,8 @@
 import random
 
-loop = 3
 wordToShuffle = input("Typ een woord in >>>> ")
-
+loop = input("Hoevaak wil je je woord shuffelen? >>>> ")
+loop = int(loop)
 
 def shuffleWord(word):
         original = word

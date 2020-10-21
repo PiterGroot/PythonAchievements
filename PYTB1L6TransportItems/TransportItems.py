@@ -1,0 +1,38 @@
+
+import os
+
+item = ("Battery")
+shop = []
+distribution = []
+factory = []
+print("Factory: " + str(factory))
+print("Distribution: " + str(distribution))
+print("Shop: " + str(shop))
+makeItem = input()
+factory.append(item)
+os.system('cls')
+print("Factory: " + str(factory))
+print("Distribution: " + str(distribution))
+print("Shop: " + str(shop))
+TransportItem = input()
+distribution.append(item)
+factory.clear()
+os.system('cls')
+print("Factory: " + str(factory))
+print("Distribution: " + str(distribution))
+print("Shop: " + str(shop))
+TransportItem = input()
+distribution.clear()
+shop.append(item)
+os.system('cls')
+print("Factory: " + str(factory))
+print("Distribution: " + str(distribution))
+print("Shop: " + str(shop))
+buyItem = input()
+shop.clear()
+os.system('cls')
+print("Factory: " + str(factory))
+print("Distribution: " + str(distribution))
+print("Shop: " + str(shop))
+print("\n" + "Je item is verkocht!")
+dontClose = input()
