@@ -15,6 +15,7 @@ def Restart():
         Restart()
         os.system('cls')
 def Start():
+    os.system('cls')
     #Defineer lists en item
     item = ("Battery")
     shop = []
