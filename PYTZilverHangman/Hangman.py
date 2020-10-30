@@ -17,7 +17,7 @@ def Start():
     print("Als je een foute letter invoert, dan komt er een streepje bij de galg. \n Je gaat door totdat je het woord hebt geraden. Als het je niet lukt om het woord te raden, is het game over (als de galg af is)")
     print("Voor de commando's typ in '/cmds' en om dit bericht opnieuw te bekijken '/help'. Veel suc6!")
 Start()
-
+##
 while True:
     command = input()
     if(command == "/quit" or command == "/QUIT" or command == "/q" or command == "/Q"):
